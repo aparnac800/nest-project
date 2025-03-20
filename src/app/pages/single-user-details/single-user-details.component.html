@@ -1,0 +1,19 @@
+<div class="single mt-5">
+<div class="card text-center" style="width: 18rem; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); overflow: hidden;">
+    <img src="{{details.image}}" class="card-img-top" alt="Profile Picture" style="object-fit: cover; height: 200px;">
+    <div class="card-body">
+        <h5 class="card-title">{{details.firstName}}</h5>
+        <p class="card-text" style="font-size: 14px; color: #555;">
+            <strong><span role="img" aria-label="house">🏡</span> Address:</strong> {{details.address.address}} <br>
+            <strong><span role="img" aria-label="city">🏙️</span> City:</strong> {{details.address.city}} <br>
+            <strong><span role="img" aria-label="state">🗺️</span> State:</strong> {{details.address.state}} <br>
+            <strong><span role="img" aria-label="postal-code">📍</span> Postal Code:</strong> {{details.address.postalCode}} <br><br>
+            
+            <strong><span role="img" aria-label="age">🎂</span> Age:</strong> {{details.age}} <br>
+            <strong><span role="img" aria-label="gender">⚧</span> Gender:</strong> {{details.gender}} <br>
+            <strong><span role="img" aria-label="birth-date">🎉</span> Birthdate:</strong> {{details.birthDate}} <br>
+            <strong><span role="img" aria-label="phone">📞</span> Phone:</strong> {{details.phone}} <br>
+        </p>
+    </div>
+</div>
+</div>
